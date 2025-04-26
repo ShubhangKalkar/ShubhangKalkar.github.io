@@ -52,7 +52,7 @@ export const techStack = [
 ]
 
 export const contactLinks = [
-  { name: 'LinkedIn', url1: 'https://img.icons8.com/color/48/linkedin.png', url2: 'https://img.icons8.com/color/48/linkedin.png', link: "https://www.linkedin.com/shubhang-kalkar/"},
+  { name: 'LinkedIn', url1: 'https://img.icons8.com/color/48/linkedin.png', url2: 'https://img.icons8.com/color/48/linkedin.png', link: "https://www.linkedin.com/in/shubhang-kalkar/"},
   { name: 'Github', url1: 'https://img.icons8.com/sf-regular-filled/48/github.png', url2: "https://img.icons8.com/material-outlined/48/FFFFFF/github.png", link :'https://github.com/ShubhangKalkar'},
   { name: 'Email', url1: 'https://img.icons8.com/bubbles/48/new-post.png', url2: "https://img.icons8.com/bubbles/48/new-post.png", link :"mailto:shubhang.kalkar15@gmail.com"}
 ]
@@ -62,7 +62,7 @@ export const projects = [
     name: 'Personal AI Assistant',
     link: "https://github.com/ShubhangKalkar/Personal-AI-Assistant",
     gitlink: "https://github.com/ShubhangKalkar/Personal-AI-Assistant",
-    desc: "This project develops a machine learning model to classify resumes into categories based on the job descriptions. It utilizes several algorithms like Support Vector Machine (SVM), Multinomial Naive Bayes, Random Forest, and DistilBERT to achieve this.",
+    desc: "This project is an LLM-based ",
     img: 'https://img.freepik.com/premium-vector/remote-recruitment-colorful-flat-illustration_1168412-484.jpg?w=1380', 
     tech: ["Python", "Selenium", "Scikit-learn", "Matplotlib", "Pandas", "SVM", "Random Forest", "Naive Bayes", "Machine Learning"]
   },  
@@ -70,7 +70,7 @@ export const projects = [
     name: "DeepFake: Detection and Generation",
     link: 'https://github.com/ShubhangKalkar/DeepFake-Detection',
     gitlink: 'https://github.com/ShubhangKalkar/DeepFake-Detection',
-    desc: "The Real-time Sentiment Analyzer effectively parsed through Reddit's live feed, offering stakeholders a pulse on current sentiment trends about specific topics. The project provided valuable hands-on experience with a modern big data stack and underscored the importance of real-time analytics in understanding public sentiment.",
+    desc: "Leveraging deep learning and computer vision, this project identifies DeepFake media by training convolutional neural networks (CNNs) on facial inconsistencies, texture artifacts, and visual anomalies.",
     img: 'https://img.freepik.com/free-vector/emotional-feedback-concept-illustration_114360-14813.jpg?t=st=1722406769~exp=1722410369~hmac=83c05643e93d30d36342109cd316dc776247b01fec944d09a9eec469fedeb160&w=1380',
     tech: ["Python", "Transformers", "Scikit-learn", "PySpark", "Kafka", "NLP", "Machine Learning"]
   },
@@ -102,7 +102,7 @@ export const projects = [
     name: "Vehicle Monitoring and Parking Solution",
     link: 'https://github.com/ShubhangKalkar/Vehicle-Monitoring_and-Parking-Solution',
     gitlink: 'https://github.com/ShubhangKalkar/Vehicle-Monitoring_and-Parking-Solution',
-    desc: "Employee Portal is a platform that allows companies to successfully save their employees personal data. Only the person with the registered username will be allowed to enter the employee details.",
+    desc: "A smart vehicle monitoring and parking management system that leverages YOLO-based object detection and OCR techniques to detect vehicles, read license plates, track entries/exits, and optimize parking lot usage.",
     img: 'https://img.freepik.com/premium-photo/talent-acquisition-hr-manager-onboarding-new-employees_1036975-209450.jpg?w=1380',
     tech: ["JavaScript", "Node.js", "MySQL", "HTML", "CSS"]
   },
@@ -110,7 +110,7 @@ export const projects = [
     name: "First Order Motion Model",
     link: 'https://github.com/ShubhangKalkar/first-order-motion-model',
     gitlink: 'https://github.com/ShubhangKalkar/first-order-motion-model',
-    desc: "Built a cancer prediction system using Python and scikit-learn, achieving a 97% accuracy in forecasting cancer risk based on extensive dataset training. Engineered a streamlined data preprocessing pipeline with Standard Scaler and KNN model, ensuring accurate predictions and robust evaluation using metrics like accuracy_score and confusion matrix",
+    desc: "An implementation of a First-Order Motion Model for unsupervised image animation, leveraging convolutional neural networks (CNNs) and dense motion fields to transfer motion from a driving video to a source image.",
     img: 'https://img.freepik.com/premium-vector/breast-cancer-awareness-poster-pink-ribbon-hearts_505573-444.jpg?w=1480',
     tech: ["Machine Learning", "scikit-learn", "object detection", "computer vision", "HTML", "CSS"]
   }
