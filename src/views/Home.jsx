@@ -48,8 +48,7 @@ const Home = () => {
                   : "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              My interests lie in software engineering, web development and data analysis. I am also a graduate student pursuing MS in Data Analytics at San Jose State University and have 3 years of Software Developer experience.
-            </p>
+              I'm a Software Engineer and Data Engineer passionate about building scalable web applications, cloud systems, and real-time data pipelines. Currently pursuing my M.S. in Data Analytics at San Jose State University, with 3+ years of professional development experience.           </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
                 <a
