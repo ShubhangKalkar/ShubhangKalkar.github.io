@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 import { ThemeContext } from "../themeProvider";
 import { motion, AnimatePresence } from "framer-motion";
 import Hamburger from "hamburger-react";
-import logoImage from '../assets/Logo.png';
+import logoImage from '../assets/SK.png';
 
 const Navbar = () => {
   const theme = useContext(ThemeContext);
