@@ -23,16 +23,16 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-white" : " text-black"}
               >
-                Hi, I am Vishal
+                Hi, I am Shubhang
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
                   steps={[
                     "Software Engineer",
                     1000,
-                    "Web Developer",
+                    "Data Engineer",
                     1000,
-                    "Data Analyst",
+                    "QA Engineer",
                     1000,
                     "Data Scientist",
                     1000

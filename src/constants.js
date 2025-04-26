@@ -52,14 +52,30 @@ export const techStack = [
 ]
 
 export const contactLinks = [
-  { name: 'LinkedIn', url1: 'https://img.icons8.com/color/48/linkedin.png', url2: 'https://img.icons8.com/color/48/linkedin.png', link: "https://www.linkedin.com/in/vishal-tripathi1497/"},
-  { name: 'Github', url1: 'https://img.icons8.com/sf-regular-filled/48/github.png', url2: "https://img.icons8.com/material-outlined/48/FFFFFF/github.png", link :'https://github.com/Vishal3041'},
-  { name: 'Email', url1: 'https://img.icons8.com/bubbles/48/new-post.png', url2: "https://img.icons8.com/bubbles/48/new-post.png", link :"mailto:vishaltripathi1497@gmail.com"}
+  { name: 'LinkedIn', url1: 'https://img.icons8.com/color/48/linkedin.png', url2: 'https://img.icons8.com/color/48/linkedin.png', link: "https://www.linkedin.com/shubhang-kalkar/"},
+  { name: 'Github', url1: 'https://img.icons8.com/sf-regular-filled/48/github.png', url2: "https://img.icons8.com/material-outlined/48/FFFFFF/github.png", link :'https://github.com/ShubhangKalkar'},
+  { name: 'Email', url1: 'https://img.icons8.com/bubbles/48/new-post.png', url2: "https://img.icons8.com/bubbles/48/new-post.png", link :"mailto:shubhang.kalkar15@gmail.com"}
 ]
 
 export const projects = [
   { 
-    name: 'Resume Classification',
+    name: 'Personal AI Assistant',
+    link: "https://github.com/ShubhangKalkar/Personal-AI-Assistant",
+    gitlink: "https://github.com/ShubhangKalkar/Personal-AI-Assistant",
+    desc: "This project develops a machine learning model to classify resumes into categories based on the job descriptions. It utilizes several algorithms like Support Vector Machine (SVM), Multinomial Naive Bayes, Random Forest, and DistilBERT to achieve this.",
+    img: 'https://img.freepik.com/premium-vector/remote-recruitment-colorful-flat-illustration_1168412-484.jpg?w=1380', 
+    tech: ["Python", "Selenium", "Scikit-learn", "Matplotlib", "Pandas", "SVM", "Random Forest", "Naive Bayes", "Machine Learning"]
+  },  
+  { 
+    name: "DeepFake: Detection and Generation",
+    link: 'https://github.com/ShubhangKalkar/DeepFake-Detection',
+    gitlink: 'https://github.com/ShubhangKalkar/DeepFake-Detection',
+    desc: "The Real-time Sentiment Analyzer effectively parsed through Reddit's live feed, offering stakeholders a pulse on current sentiment trends about specific topics. The project provided valuable hands-on experience with a modern big data stack and underscored the importance of real-time analytics in understanding public sentiment.",
+    img: 'https://img.freepik.com/free-vector/emotional-feedback-concept-illustration_114360-14813.jpg?t=st=1722406769~exp=1722410369~hmac=83c05643e93d30d36342109cd316dc776247b01fec944d09a9eec469fedeb160&w=1380',
+    tech: ["Python", "Transformers", "Scikit-learn", "PySpark", "Kafka", "NLP", "Machine Learning"]
+  },
+  { 
+    name: 'Resume Classifier',
     link: "https://github.com/Vishal3041/Resume-Classification",
     gitlink: "https://github.com/Vishal3041/Resume-Classification",
     desc: "This project develops a machine learning model to classify resumes into categories based on the job descriptions. It utilizes several algorithms like Support Vector Machine (SVM), Multinomial Naive Bayes, Random Forest, and DistilBERT to achieve this.",
@@ -68,40 +84,32 @@ export const projects = [
   },
   { 
     name: "Realtime Voting Analysis",
-    link: 'https://github.com/Vishal3041/Realtime-Voting-Analysis',
-    gitlink: 'https://github.com/Vishal3041/Realtime-Voting-Analysis',
+    link: 'https://github.com/ShubhangKalkar/Real-Time-Voting-Analysis',
+    gitlink: 'https://github.com/ShubhangKalkar/Real-Time-Voting-Analysis',
     desc: "This project aims to simulate a real-world election scenario where votes are cast, processed, and visualized in real-time. Leveraging modern technologies built a robust, scalable, and live-updating voting platform.",
     img: 'https://img.freepik.com/premium-photo/hand-putting-vote-ballot-box-against-american-flag-background-presidential-election-usa_89223-6550.jpg?w=2000',
     tech: ["Python", "Docker", "PostgreSQL", "Kafka", "Apache Spark", "Streamlit", "Min Hashing", "Shingling", "K-Anonymity"]
   },
   { 
     name: "Github Code Summarization using LLM",
-    link: 'https://github.com/Vishal3041/Code-Summarization-using-LLM',
-    gitlink: 'https://github.com/Vishal3041/Code-Summarization-using-LLM',
+    link: 'https://github.com/ShubhangKalkar/Code-Summarization-using-LLM-LangChain',
+    gitlink: 'https://github.com/ShubhangKalkar/Code-Summarization-using-LLM-LangChain',
     desc: "Implemented features for interactive querying, tokenizing queries, and finding matches to enhance repository comprehension and exploration. Explore and ask questions about a GitHub code repository using OpenAI's GPT-3 language model.",
     img: 'https://img.freepik.com/free-vector/programmer-working-web-development-code-engineer-programming-python-php-java-script-computer_90220-250.jpg?t=st=1722406991~exp=1722410591~hmac=ed8bb049d1e52cc041943a2f0cedd24d17073b414da62bacf70551d31af35088&w=1480',
     tech: ["Python", "LLM", "OpenAI", "Tokenization"]
   },
   { 
-    name: "Big Data Sentiment Analyzer",
-    link: 'https://github.com/Vishal3041/BigData-Sentiment-Analyzer',
-    gitlink: 'https://github.com/Vishal3041/BigData-Sentiment-Analyzer',
-    desc: "The Real-time Sentiment Analyzer effectively parsed through Reddit's live feed, offering stakeholders a pulse on current sentiment trends about specific topics. The project provided valuable hands-on experience with a modern big data stack and underscored the importance of real-time analytics in understanding public sentiment.",
-    img: 'https://img.freepik.com/free-vector/emotional-feedback-concept-illustration_114360-14813.jpg?t=st=1722406769~exp=1722410369~hmac=83c05643e93d30d36342109cd316dc776247b01fec944d09a9eec469fedeb160&w=1380',
-    tech: ["Python", "Transformers", "Scikit-learn", "PySpark", "Kafka", "NLP", "Machine Learning"]
-  },
-  { 
-    name: "Employee Management System",
-    link: 'https://github.com/Vishal3041/employee_management_system',
-    gitlink: 'https://github.com/Vishal3041/employee_management_system',
+    name: "Vehicle Monitoring and Parking Solution",
+    link: 'https://github.com/ShubhangKalkar/Vehicle-Monitoring_and-Parking-Solution',
+    gitlink: 'https://github.com/ShubhangKalkar/Vehicle-Monitoring_and-Parking-Solution',
     desc: "Employee Portal is a platform that allows companies to successfully save their employees personal data. Only the person with the registered username will be allowed to enter the employee details.",
     img: 'https://img.freepik.com/premium-photo/talent-acquisition-hr-manager-onboarding-new-employees_1036975-209450.jpg?w=1380',
     tech: ["JavaScript", "Node.js", "MySQL", "HTML", "CSS"]
   },
   { 
-    name: "Breast Cancer Prediction",
-    link: 'https://github.com/Vishal3041/Breast-cancer-Prediction',
-    gitlink: 'https://github.com/Vishal3041/Breast-cancer-Prediction',
+    name: "First Order Motion Model",
+    link: 'https://github.com/ShubhangKalkar/first-order-motion-model',
+    gitlink: 'https://github.com/ShubhangKalkar/first-order-motion-model',
     desc: "Built a cancer prediction system using Python and scikit-learn, achieving a 97% accuracy in forecasting cancer risk based on extensive dataset training. Engineered a streamlined data preprocessing pipeline with Standard Scaler and KNN model, ensuring accurate predictions and robust evaluation using metrics like accuracy_score and confusion matrix",
     img: 'https://img.freepik.com/premium-vector/breast-cancer-awareness-poster-pink-ribbon-hearts_505573-444.jpg?w=1480',
     tech: ["Machine Learning", "scikit-learn", "object detection", "computer vision", "HTML", "CSS"]
@@ -111,15 +119,15 @@ export const projects = [
 export const skill = [
   {
     name: 'Software Development',
-    desc: "My experience as a Software Engineer involved streamlining workflows, resolving bugs, and mentoring developers, demonstrating my strong background in software development."
+    desc: "Skilled in building scalable backend systems, optimizing code quality, and driving reliable software development practices."
   },
   {
-    name: 'Full Stack Web Development',
-    desc: "Through projects like the Personal Portfolio website and other Apps, I showcased my proficiency in full stack web development, utilizing a variety of technologies to create interactive and efficient web applications."
+    name: 'Data Engineering',
+    desc: "Experienced in designing cloud-based data pipelines, automating ETL workflows, and enabling real-time data solutions."
   },
   {
-    name: 'ML & Data Analysis',
-    desc: "I built a solid foundation in ML and data analytics, through coursework and projects, where I applied data analysis and machine learning techniques to address complex challenges."
+    name: 'Full Stack',
+    desc: "Capable of delivering complete web applications by combining efficient backend architecture with intuitive frontend experiences."
   }
 
 

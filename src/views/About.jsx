@@ -30,9 +30,9 @@ const About = () => {
                   : "mt-4 text-xl text-justify text-gray-500"
               }
             >
-              Vishal Tripathi is a passionate software engineer and data enthusiast with a strong background in data analytics, web development, and system optimization. He has honed his skills working on projects with real-world impact, from engineering significant migrations at Bigtree Entertainment to developing innovative solutions that enhance user experience and boost productivity.              <br />
+              With a strong foundation in software engineering and a growing expertise in data engineering, I am passionate about designing systems that are robust, scalable, and driven by real-world data. Pursuing my M.S. in Data Analytics at San Jose State University, I have built a career around solving complex problems through backend development, cloud architecture, and real-time data processing.              <br />
               <br />
-              What sets Vishal apart is his dedication to merging creativity with technical expertise. His projects, like the Realtime Voting System and GitHub Code Summarization tool, showcase his ability to bridge the gap between analytical and creative worlds. Vishal aims to push the boundaries of what's possible in the software industry, driving innovation through his unique blend of skills and passion.            </p>
+              Over the past three years, I have contributed to projects ranging from microservices architecture at Nokia to large-scale data migrations and analytics platforms at Infosys. My work consistently focuses on improving system performance, streamlining data workflows, and enabling smarter decision-making through technology. I am motivated by the intersection of software, cloud infrastructure, and AI — always aiming to create solutions that are efficient, innovative, and future-ready.            </p>
           </motion.div>
           <motion.div
           >
