@@ -10,7 +10,7 @@ A personal portfolio website which is visually appealing and user-friendly platf
 * Responsive design
 * Simple & modern technologies (React, JavaScript and Tailwind CSS)
 
-Website URL : [https://vishal3041.github.io](https://vishal3041.github.io)
+Website URL : [https://ShubhangKalkar.github.io](https://ShubhangKalkar.github.io)
 
 If you like this, please leave a ⭐! Thank you!
 
