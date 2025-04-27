@@ -1,17 +1,25 @@
+import FOML from './portfolio_photos/FOML.png';
+import PAA from './portfolio_photos/PAA.png';
+import DF from './portfolio_photos/Deepfake.png';
+import VMPS from './portfolio_photos/VMPS.png';
+
 
 export const techStack = [
 
-  { name: "Go", link: "https://cdn.worldvectorlogo.com/logos/golang-gopher.svg", alt:"go-programming"},
-  { name: "C++", link: "https://img.icons8.com/color/48/c-plus-plus-logo.png", alt:"c-plus-plus"},
-  { name: "NodeJS", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" },
   { name: "Python", link: "https://img.icons8.com/color/48/python--v1.png", alt:"python" },
+  { name: "Bash", link: "https://img.icons8.com/?size=100&id=19292&format=png&color=000000", alt: "bash" },
+  { name: "NodeJS", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" },
+  { name: "Java", link: "https://img.icons8.com/?size=100&id=13679&format=png&color=000000", alt:"Java" },
   { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
+  { name: "Docker", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" },
+  { name: "Kubernetes", link: "https://img.icons8.com/?size=100&id=cvzmaEA4kC0o&format=png&color=000000", alt:"Kubernetes"},
   
-  { name: "Tailwind CSS", link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
+  { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
+  { name: "Ansible", link: "https://img.icons8.com/?size=100&id=iGCCE2iEmh2u&format=png&color=000000", alt:"Ansible" },
   { name: "HTML", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" },
   { name: "React", link: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" },
   { name: "CSS", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" },
-  { name: "Aerospike", link: "https://asset.brandfetch.io/id2qaO5YSb/idcb0jwaia.svg?updated=1717958091166", alt:"Aerospike" },
+  { name: "C++", link: "https://img.icons8.com/color/48/c-plus-plus-logo.png", alt:"c-plus-plus"},
 
   // { name: "npm.js", link: "https://img.icons8.com/color/480/npm.png", alt:"npm" },
   // { name: "SQL", link: "https://img.icons8.com/ios/100/sql.png", alt:"sql" },
@@ -23,7 +31,7 @@ export const techStack = [
   { name: "Mongo DB", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" },
   { name: "PostgreSQL", link: "https://www.vectorlogo.zone/logos/postgresql/postgresql-vertical.svg", alt:"postgresql" },
   { name: "Neo4j", link: "https://www.vectorlogo.zone/logos/neo4j/neo4j-ar21.svg", alt:"neo4j" },
-  { name: "Redis", link: "https://www.vectorlogo.zone/logos/redis/redis-ar21.svg", alt: "redis" },
+
 
   { name: "Big Data", link: "https://img.icons8.com/ios-filled/100/big-data.png", alt:"big-data" }, 
   { name: "Hadoop", link: "https://img.icons8.com/color/480/hadoop-distributed-file-system.png", alt:"hadoop-distributed-file-system" },
@@ -31,11 +39,11 @@ export const techStack = [
   { name: "Kakfa", link: "https://www.vectorlogo.zone/logos/apache_kafka/apache_kafka-ar21.svg", alt:"kafka" },
   { name: "AWS", link: "https://img.icons8.com/color/480/amazon-web-services.png", alt:"amazon-web-services" },
 
-  { name: "Docker", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" },
+
   { name: "Power BI", link: "https://img.icons8.com/color/480/power-bi.png", alt:"power-bi" },
   { name: "Tableau", link: "https://img.icons8.com/color/480/tableau-software.png", alt:"tableau-software" },
   { name: "Excel", link: "https://img.icons8.com/color/480/microsoft-excel-2019--v1.png", alt:"microsoft-excel-2019--v1" },
-  { name: "Git", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-plain.svg" },
+
   
   { name: "NumPy", link: "https://img.icons8.com/color/480/numpy.png", alt:"numpy" },
   { name: "Pandas", link: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" },
@@ -47,14 +55,14 @@ export const techStack = [
   { name: "Deep Learning", link: "https://img.icons8.com/external-becris-lineal-becris/64/external-deep-learning-artificial-intelligence-becris-lineal-becris.png", alt:"deep-learning" },
   { name: "Jupyter", link: "https://img.icons8.com/fluency/240/jupyter.png", alt:"jupyter" },
   { name: "Generative AI", link: "https://img.icons8.com/nolan/256/chatgpt.png", alt:"chatgpt"},
-  { name: "Selenium", link: "https://img.icons8.com/stickers/400/selenium-test-automation.png", alt:"selenium-test-automation" }
-
+  { name: "Selenium", link: "https://img.icons8.com/stickers/400/selenium-test-automation.png", alt:"selenium-test-automation" },
+  { name: "Tailwind CSS", link: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" },
 ]
 
 export const contactLinks = [
   { name: 'LinkedIn', url1: 'https://img.icons8.com/color/48/linkedin.png', url2: 'https://img.icons8.com/color/48/linkedin.png', link: "https://www.linkedin.com/in/shubhang-kalkar/"},
   { name: 'Github', url1: 'https://img.icons8.com/sf-regular-filled/48/github.png', url2: "https://img.icons8.com/material-outlined/48/FFFFFF/github.png", link :'https://github.com/ShubhangKalkar'},
-  { name: 'Email', url1: 'https://img.icons8.com/bubbles/48/new-post.png', url2: "https://img.icons8.com/bubbles/48/new-post.png", link :"mailto:shubhang.kalkar15@gmail.com"}
+  { name: 'Email', url1: 'https://img.icons8.com/?size=100&id=P7UIlhbpWzZm&format=png&color=000000', url2: "https://img.icons8.com/bubbles/48/new-post.png", link :"mailto:shubhang.kalkar15@gmail.com"}
 ]
 
 export const projects = [
@@ -62,17 +70,17 @@ export const projects = [
     name: 'Personal AI Assistant',
     link: "https://github.com/ShubhangKalkar/Personal-AI-Assistant",
     gitlink: "https://github.com/ShubhangKalkar/Personal-AI-Assistant",
-    desc: "This project is an LLM-based ",
-    img: 'https://img.freepik.com/premium-vector/remote-recruitment-colorful-flat-illustration_1168412-484.jpg?w=1380', 
-    tech: ["Python", "Selenium", "Scikit-learn", "Matplotlib", "Pandas", "SVM", "Random Forest", "Naive Bayes", "Machine Learning"]
+    desc: "A smart AI-powered assistant that automates tasks like scheduling, answering queries, and managing information through natural language interactions.",
+    img: PAA, 
+    tech: ["Python", "LLMs", "OpenAI", "Pinecone", "Fine-tuning"]
   },  
   { 
     name: "DeepFake: Detection and Generation",
     link: 'https://github.com/ShubhangKalkar/DeepFake-Detection',
     gitlink: 'https://github.com/ShubhangKalkar/DeepFake-Detection',
     desc: "Leveraging deep learning and computer vision, this project identifies DeepFake media by training convolutional neural networks (CNNs) on facial inconsistencies, texture artifacts, and visual anomalies.",
-    img: 'https://img.freepik.com/free-vector/emotional-feedback-concept-illustration_114360-14813.jpg?t=st=1722406769~exp=1722410369~hmac=83c05643e93d30d36342109cd316dc776247b01fec944d09a9eec469fedeb160&w=1380',
-    tech: ["Python", "Transformers", "Scikit-learn", "PySpark", "Kafka", "NLP", "Machine Learning"]
+    img: DF,
+    tech: ["Python", "First-Order-Motion-Model", "Wav2Lip", "Django", "SVTTS", "NLP", "Machine Learning"]
   },
   { 
     name: 'Resume Classifier',
@@ -103,16 +111,16 @@ export const projects = [
     link: 'https://github.com/ShubhangKalkar/Vehicle-Monitoring_and-Parking-Solution',
     gitlink: 'https://github.com/ShubhangKalkar/Vehicle-Monitoring_and-Parking-Solution',
     desc: "A smart vehicle monitoring and parking management system that leverages YOLO-based object detection and OCR techniques to detect vehicles, read license plates, track entries/exits, and optimize parking lot usage.",
-    img: 'https://img.freepik.com/premium-photo/talent-acquisition-hr-manager-onboarding-new-employees_1036975-209450.jpg?w=1380',
-    tech: ["JavaScript", "Node.js", "MySQL", "HTML", "CSS"]
+    img: VMPS,
+    tech: ["JavaScript", "Node.js", "MySQL", "HTML", "CSS", "YOLO", "OCR", "Django"]
   },
   { 
     name: "First Order Motion Model",
     link: 'https://github.com/ShubhangKalkar/first-order-motion-model',
     gitlink: 'https://github.com/ShubhangKalkar/first-order-motion-model',
     desc: "An implementation of a First-Order Motion Model for unsupervised image animation, leveraging convolutional neural networks (CNNs) and dense motion fields to transfer motion from a driving video to a source image.",
-    img: 'https://img.freepik.com/premium-vector/breast-cancer-awareness-poster-pink-ribbon-hearts_505573-444.jpg?w=1480',
-    tech: ["Machine Learning", "scikit-learn", "object detection", "computer vision", "HTML", "CSS"]
+    img: FOML,
+    tech: ["Machine Learning", "Wav2Lip", "Driving Image", "Driven Image", "HTML", "CSS"]
   }
 ]
    

@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import heroBg from "../assets/intropic.png";
+import profilephoto from "../portfolio_photos/Profile_photo.jpg";
 import Typical from "react-typical";
 import { contactLinks } from "../constants";
 import { ThemeContext } from "../themeProvider";
@@ -56,14 +56,18 @@ const Home = () => {
                   target="_blank"
                   className="mr-5 cursor-pointer mt-8 hover:scale-125"
                 >
-                  <img alt="" src={darkMode ? el.url2 : el.url1}  />
+                  <img 
+                    alt={el.name}
+                    src={darkMode ? el.url2 : el.url1}
+                    className="w-10 h-10 object-contain"
+                  />
                 </a>
               ))}
             </div>
             <div className="mt-5 sm:mt-8 sm:flex  lg:justify-start">
               <div className="mt-3 sm:mt-0 cursor-pointer w-1/2">
                 <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-500 hover:scale-105 md:py-4 md:text-lg md:px-10"
-                  href="https://drive.google.com/file/d/1kQDLmdNa1dzCv1WdmLQ247FxEHzUsmeY/view?usp=sharing" target="_blank" >
+                  href="https://drive.google.com/file/d/1Q09Afcuq5F5ZhXGbYWoDNkb1OotNCDGY/view?usp=drive_link" target="_blank" >
                   Resume
                   </a>
               </div>
@@ -83,9 +87,9 @@ const Home = () => {
               },
               hidden: { opacity: 1, y: 80 },
             }}
-            src={heroBg}
+            src={profilephoto}
             alt=""
-            className="w-80 p-12 pb-8"
+            className="w-96 h-96 rounded-full object-cover p-12 pb-8"
           />
           </div>
         </main>
