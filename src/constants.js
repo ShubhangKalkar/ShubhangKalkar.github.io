@@ -84,8 +84,8 @@ export const projects = [
   },
   { 
     name: 'Resume Classifier',
-    link: "https://github.com/Vishal3041/Resume-Classification",
-    gitlink: "https://github.com/Vishal3041/Resume-Classification",
+    link: "https://github.com/ShubhangKalkar/Resume-Classification",
+    gitlink: "https://github.com/ShubhangKalkar/Resume-Classification",
     desc: "This project develops a machine learning model to classify resumes into categories based on the job descriptions. It utilizes several algorithms like Support Vector Machine (SVM), Multinomial Naive Bayes, Random Forest, and DistilBERT to achieve this.",
     img: 'https://img.freepik.com/premium-vector/remote-recruitment-colorful-flat-illustration_1168412-484.jpg?w=1380', 
     tech: ["Python", "Selenium", "Scikit-learn", "Matplotlib", "Pandas", "SVM", "Random Forest", "Naive Bayes", "Machine Learning"]
