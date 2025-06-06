@@ -2,6 +2,7 @@ import FOML from './portfolio_photos/FOML.png';
 import PAA from './portfolio_photos/PAA.png';
 import DF from './portfolio_photos/Deepfake.png';
 import VMPS from './portfolio_photos/VMPS.png';
+import RCM from '.portfolio_photos/RCM.png'
 
 
 export const techStack = [
@@ -121,6 +122,14 @@ export const projects = [
     desc: "An implementation of a First-Order Motion Model for unsupervised image animation, leveraging convolutional neural networks (CNNs) and dense motion fields to transfer motion from a driving video to a source image.",
     img: FOML,
     tech: ["Machine Learning", "Wav2Lip", "Driving Image", "Driven Image", "HTML", "CSS"]
+  }
+  { 
+    name: "Clover Payment Gateway - Revenue Cycle Management",
+    link: 'https://github.com/ShubhangKalkar/Basic-Payment-Workflow-Using-Clover-Payment-Gateway',
+    gitlink: 'https://github.com/ShubhangKalkar/Basic-Payment-Workflow-Using-Clover-Payment-Gateway',
+    desc: "A full-stack Node.js app that simulates a Clover payment workflow using OAuth2, real-time order creation, and test card transactions via the Clover Developer Sandbox.",
+    img: RCM,
+    tech: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "OAuth2"]
   }
 ]
    
