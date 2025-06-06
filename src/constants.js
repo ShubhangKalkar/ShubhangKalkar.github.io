@@ -122,7 +122,7 @@ export const projects = [
     desc: "An implementation of a First-Order Motion Model for unsupervised image animation, leveraging convolutional neural networks (CNNs) and dense motion fields to transfer motion from a driving video to a source image.",
     img: FOML,
     tech: ["Machine Learning", "Wav2Lip", "Driving Image", "Driven Image", "HTML", "CSS"]
-  }
+  },
   { 
     name: "Clover Payment Gateway - Revenue Cycle Management",
     link: 'https://github.com/ShubhangKalkar/Basic-Payment-Workflow-Using-Clover-Payment-Gateway',
