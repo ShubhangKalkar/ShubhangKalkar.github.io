@@ -2,7 +2,7 @@ import FOML from './portfolio_photos/FOML.png';
 import PAA from './portfolio_photos/PAA.png';
 import DF from './portfolio_photos/Deepfake.png';
 import VMPS from './portfolio_photos/VMPS.png';
-import RCM from '.portfolio_photos/RCM.png';
+import RCM from './portfolio_photos/RCM.png';
 
 
 export const techStack = [
