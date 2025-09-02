@@ -9,8 +9,8 @@ const Contact = () => {
     <div id="contact"
       className={
         darkMode
-          ? "bg-black pt-24 pt-24 text-white md:h-screen justify-center"
-          : "bg-gray-100 pt-24 md:h-screen justify-center"
+          ? "font-sans bg-black pt-24 pt-24 text-white md:h-screen justify-center"
+          : "font-sans bg-gray-100 pt-24 md:h-screen justify-center"
       }
     >
       <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 ">

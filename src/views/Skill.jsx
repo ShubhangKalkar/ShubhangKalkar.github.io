@@ -10,7 +10,7 @@ const Skill = () => {
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
   return  (
-    <div id="skill" className={darkMode !== true ? "bg-white" : "bg-gray-900"}>
+    <div id="skill" className={ darkMode !== true ? "bg-white" : "bg-gray-900"}>
       <FadeInSection>
         <div className="max-w-7xl mx-auto x-4 sm:px-6 lg:px-8 px-4 md:mt-0 pt-20 pb-12">
           <h1

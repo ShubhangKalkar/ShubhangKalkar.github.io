@@ -10,7 +10,7 @@ const Home = () => {
   const darkMode = theme.state.darkMode;
   return (
     <>
-      <div className={darkMode ? "bg-gray-900" : "bg-white"}
+      <div className={ darkMode ? "bg-gray-900" : "bg-white"}
       >
         <main
           className="mx-auto max-w-7xl px-4 py-16 flex flex-col items-center justify-center sm:px-6  md:flex-row lg:px-8 "
@@ -48,7 +48,7 @@ const Home = () => {
                   : "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              I'm a Software Engineer and Data Engineer passionate about building scalable web applications, cloud systems, and real-time data pipelines. Currently pursuing my M.S. in Data Analytics at San Jose State University, with 3+ years of professional development experience.           </p>
+              I'm a Software Engineer and Data Engineer passionate about building scalable web applications, cloud systems, and real-time data pipelines. I hold M.S. in Data Analytics from San Jose State University, with 4+ years of professional development experience.           </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
                 <a
