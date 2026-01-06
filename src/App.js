@@ -6,6 +6,8 @@ import About from "./views/About";
 import Home from './views/Home';
 import Skill from './views/Skill';
 import Project from './views/Project';
+import Experience from "./views/Experience";
+import Tools from "./views/Tech";
 import { ThemeProvider } from "./themeProvider";
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
             <Navbar />
             <Home />
             <About />
+            <Experience />
+            <Tools />
             <Skill />
             <Project />
             <Contact />
