@@ -2,7 +2,20 @@ import React, { useContext } from "react";
 import { ThemeContext } from "../themeProvider";
 import { motion } from "framer-motion";
 
-const EXPERIENCES = [
+const EXPERIENCES = [ 
+  {
+    company: "sikka.ai",
+    title: "Quality Assurance Intern",
+    period: "Nov 2025 – Present",
+    location: "San Jose, CA",
+    bullets: [
+      "Built a Python + Playwright concurrency performance harness using threading to simulate 40+ parallel user sessions, enforcing isolated browser contexts and custom resource controls to prevent system exhaustion",
+      "Built stable UI automation for lazy-loaded components using ARIA locators, explicit waits, event dispatching, and async anchor verification, reducing flakiness under 30 seconds render delays",
+      "Executed Dockerized Playwright test runs on Kubernetes deployments managed via ArgoCD, and monitored EC2 CPU/RAM during peak loads to provide worker/pod right-sizing inputs that prevented OOM failures in high-concurrency execution"
+    ],
+    skills: ["Python", "Playwright", "Kubernetes", "ArgoCD", "EC2"]
+  },
+  
   {
     company: "Nokia",
     title: "Software Engineer Intern",
