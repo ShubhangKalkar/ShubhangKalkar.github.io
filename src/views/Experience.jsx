@@ -13,7 +13,7 @@ const EXPERIENCES = [
       "Built stable UI automation for lazy-loaded components using ARIA locators, explicit waits, event dispatching, and async anchor verification, reducing flakiness under 30 seconds render delays",
       "Executed Dockerized Playwright test runs on Kubernetes deployments managed via ArgoCD, and monitored EC2 CPU/RAM during peak loads to provide worker/pod right-sizing inputs that prevented OOM failures in high-concurrency execution"
     ],
-    skills: ["Python", "Playwright", "Kubernetes", "ArgoCD", "EC2"]
+    skills: ["Python", "Selenium", "Kubernetes", "ArgoCD", "EC2", "Playwright"]
   },
   
   {
