@@ -48,7 +48,8 @@ const Home = () => {
                   : "mt-3 text-base text-black sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0"
               }
             >
-              Engineer with 3+ years building data pipelines and backend services on AWS, supporting 100K+ daily requests and 1M+ records/day analytics workloads. Reduced API latencyby 50% to improve responsiveness under peak traffic, increased PostgreSQL throughput by 40% to accelerate analytics query cycles, and sped up data workflows by 40% toshorten reporting turnaround. Delivered reliable ingestion and real-time analytics systems that improved end-to-end stability by 35% and scaled ML/NLP solutions to 100K+ records with 93% classification accuracy.        </p>
+              Software Engineer with 4+ years of experience building and operating backend services and distributed systems at scale. Designed and optimized microservices handling 100K+ daily requests with 99.9% SLA, reduced API latency by 50% through caching and query optimization, and improved PostgreSQL throughput by 40% for high-traffic workloads. Strong in Python, REST APIs, databases, CI/CD, and cloud-native infrastructure.
+            </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
                 <a
