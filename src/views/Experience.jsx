@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 
 const EXPERIENCES = [ 
   {
-    company: "sikka.ai",
-    title: "Quality Assurance Intern",
+    company: "Sikka Software Corporation",
+    title: "Software Engineer",
     period: "Nov 2025 – Present",
     location: "San Jose, CA",
     bullets: [
